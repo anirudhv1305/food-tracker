@@ -2,6 +2,7 @@ type Theme = 'light' | 'dark'
 
 const applyTheme = (theme: Theme) => {
   document.documentElement.dataset.theme = theme
+  document.documentElement.classList.toggle('dark', theme === 'dark')
   localStorage.setItem('food-theme', theme)
 }
 
