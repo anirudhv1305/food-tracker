@@ -5,7 +5,7 @@ Mobile-first React PWA for recording meals, manually grouping any three meals in
 ## Run locally
 
 1. Create a Supabase project.
-2. In Supabase SQL Editor, run `supabase/migrations/001_food_tracker.sql`.
+2. In Supabase SQL Editor, run the files in `supabase/migrations/` in numerical order.
 3. Copy `.env.example` to `.env.local` and set:
 
    ```text
