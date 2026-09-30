@@ -1,0 +1,9 @@
+:root[data-theme="dark"] {
+  --bg: #111916;
+  --text: #e5eee8;
+  --card: #1b2822;
+  --border: #2e4037;
+  --muted: #adbbb3;
+  --accent: #69b98c;
+  --input: #15211c;
+}
